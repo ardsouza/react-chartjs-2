@@ -1771,6 +1771,7 @@ var ChartComponent = function (_React$Component) {
       }
 
       if (!(0, _lodash2.default)(options, nextProps.options)) {
+		this.updateChart();
         return true;
       }
 
